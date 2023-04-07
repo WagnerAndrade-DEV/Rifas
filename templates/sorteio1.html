@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R$200,00 no PIX 🤑</title>
+    <link rel="stylesheet" href="../static/sorteio.css">
+</head>
+
+<body>
+    <div class="sorteio1">
+        <img src="../static/200Reais.jpg" height="130">
+        <h2>R$200,00 no PIX 🤑</h2>
+        <p>Sorteio em 15/05/2023</p>
+
+        <form class="container4" method="POST">
+            <h2>Preencha com seus dados abaixo</h2>
+            <p>Nome:</p>
+            <input type="text" name="nome" id="nome" required>
+
+            <p>Tel:</p>
+            <input type="text" name="telefone" id="telefone" maxlength="15" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" /  required>
+
+            <div class="valorBotao">
+                <h3>R$0,50</h3>
+                <input type="number" name="quantidade" id="quantidade" min="1" max="1000" value="1">
+                <button class="button-13" type="submit">Comprar</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

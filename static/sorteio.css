@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+@font-face {
+    font-family: "MinhaFonte";
+    src: url("../static/Hatcher.otf");
+}
+
+* {
+    font-family: Calibri;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+}
+
+.button-13 {
+    background-color: #fff;
+    border: 1px solid #b2b4b4;
+    border-radius: 8px;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    box-sizing: border-box;
+    color: #0f1111;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Amazon Ember", sans-serif;
+    font-size: 13px;
+    line-height: 29px;
+    padding: 0 10px 0 11px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    width: 100px;
+    height: 45px;
+}
+
+h3 {
+    font-size: 28px;
+    font-family: Montserrat;
+}
+
+
+input[type=number]::-webkit-inner-spin-button {
+    opacity: 1;
+}
+
+input[type="number"] {
+    height: 35px;
+    width: 50px;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.valorBotao{
+    display: flex;
+    align-items: center;
+}
